@@ -11,21 +11,28 @@ const App = () => {
   if (state.apiVersion === '1') {
     return (
       <div>
-        <h1>CHIMERA V1</h1>
+        <h1>LOGO APP V1</h1>
         <img src="/Chimera_graphic_black.svg" alt="Black Logo" />
       </div>
     )    
   } else if (state.apiVersion === '2') {
     return (
       <div>
-        <h1>CHIMERA V2</h1>
+        <h1>LOGO APP V2</h1>
         <img src="/Chimera_graphic_color.svg" alt="Color Logo" />
       </div>
     )
-  } else {
+  } else if (state.apiVersion === '3') {
     return (
       <div>
-        <h1>CHIMERA</h1>
+        <h1>LOGO APP V3</h1>
+        <img src="/Chimera_graphic_color.svg" alt="Color Logo" />
+      </div>
+    )
+  }else {
+    return (
+      <div>
+        <h1>LOGO APP</h1>
       </div>
     )
   }
