@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const baseURL = window.CHIMERA_ENDPOINT.includes("localhost")
   ? `http://localhost:9080`
-  : `http://${window.CHIMERA_ENDPOINT}/logo`;
+  : `http://${window.CHIMERA_ENDPOINT}/api/logo`;
 
 const init = {
   apiVersion: "",
